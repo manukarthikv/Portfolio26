@@ -32,8 +32,6 @@ To run this project locally:
 
 
 
-Got inspiration from @[Talha-021ex](https://github.com/c2-tlhah).
-
 ## Tags
 
 `portfolio` `personal-website` `reactjs` `web-development` `dark-mode`
