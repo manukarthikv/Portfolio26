@@ -52,19 +52,19 @@ export const metadata: Metadata = {
       rel: 'icon',
       type: 'image/png',
       sizes: '192x192',
-      url: '/favicons/android-chrome-192x192.png',
+      url: '/favicon_io/android-chrome-192x192.png',
     },
     {
       rel: 'icon',
       type: 'image/png',
       sizes: '32x32',
-      url: '/favicons/favicon-32x32.png',
+      url: '/favicon_io/favicon-32x32.png',
     },
     {
       rel: 'icon',
       type: 'image/png',
       sizes: '16x16',
-      url: '/favicons/favicon-16x16.png',
+      url: '/favicon_io/favicon-16x16.png',
     },
   ],
 };

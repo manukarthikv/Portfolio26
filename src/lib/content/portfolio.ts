@@ -7,35 +7,22 @@
 import { StringKeyValueType } from '../types';
 
 export const socialLinks: StringKeyValueType = {
-  twitter: 'https://x.com/SalawuToby',
-  github: 'https://github.com/tobilobasalawu',
-  linkedin: 'https://www.linkedin.com/in/oluwatobi-s/',
+  github: 'https://github.com/manukarthikv',
+  linkedin: 'https://www.linkedin.com/in/manukarthikv/',
 };
 
 export const author = {
-  name: 'Oluwatobi Salawu',
-  email: 'tobisal.dev@gmail.com',
+  name: 'Manu Karthik V',
+  email: 'manukarthikv1@gmail.com',
 };
 
 export const seoData = {
-  title: 'Oluwatobi Salawu | Portfolio',
-  description: 'Aspiring Sotfware Engineer, T-Level Student, Improving my skills to be better at what I do',
+  title: 'ManuKarthik|Portfolio',
+  description: 'Aspiring Sotfware Engineer, Improving my skills to be better at what I do',
   author: author.name,
   image: '/preview.png',
   url: 'https://oluwatobisalawu.me/',
   keywords: [
-    'Tobi',
-    'Oluwatobi Salawu',
-    '@SalawuToby',
-    'oluwatobi salawu',
-    'tobilobasalawu',
-    '@tobilobasalawu',
-    '@oluwatobi-s',
     'Portfolio',
-    'Oluwatobi Portfolio',
-    'Oluwatobi Salawu Portfolio',
-    'oluwatobi-s',
-    '@tobilobasalawu',
-    'Oluwatobi Portfolio ',
   ],
 };

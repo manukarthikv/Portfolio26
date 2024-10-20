@@ -13,7 +13,6 @@ export const skillsSection: SkillsSectionType = {
       },
       points: [
         'Building responsive websites for various devices.',
-        'Creating user-friendly software solutions.',
         'Optimizing web applications for performance and scalability.',
         'Ensuring code quality through testing and code reviews.',
       ],

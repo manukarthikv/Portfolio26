@@ -3,9 +3,9 @@ import { AboutSectionType} from '@/lib/types/sections';
 export const aboutSection: AboutSectionType = {
   title: 'about me',
   paragraphs: [
-    "I may not know much yet, but with the little knowledge I have, I've already built some impressive projects. My passion for learning and pushing the boundaries of what I can create drives me every day.",
-    'Recently, I completed an internship at Headstarter, where I created several projects that helped improve my skills. My current focus is on my Python expertise and expanding my software engineering stack.',
-    "When I'm not coding, you'll find me working on personal development or listening my favorite playlist."
+    `Hi, I'm Manu Karthik, a Computer Science graduate from the Global Academy of Technology, Bengaluru, with a CGPA of 8.96. With hands-on experience in web development and machine learning, I'm passionate about tackling challenges and creating innovative solutions.
+
+I’m skilled in HTML, CSS, JavaScript, Java, and Python, and proficient in frameworks like React, Node.js, Express.js, and Next.js. My internship experiences as a Data Science Intern at Technofly Solutions and a Web Developer Intern at TechCiti Software Consulting have equipped me with practical skills in solving real-world problems.`
   ],
   list: {
     title: 'Here are a few languages & frameworks I’ve been working with recently:',
@@ -14,9 +14,9 @@ export const aboutSection: AboutSectionType = {
       'JavaScript',
       'HTML/CSS',
       'Firebase',
-      'NextJS',
-      'TailwindCSS'
+      'MERN',
+      'Java'
     ],
   },
-  img: '/img.jpg',
+  img: '/img.png',
 };

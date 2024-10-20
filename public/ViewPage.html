@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oluwatobi Salawu - Resume</title>
+    <title>Manu Karthik V - Resume</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -52,10 +52,12 @@
             text-transform: uppercase;
             font-weight: bold;
         }
+        /* Enhanced hover effect */
         .btn:hover {
             background: #4e54c8;
             color: #fff;
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 0 20px rgba(78, 84, 200, 0.8), 0 0 30px rgba(78, 84, 200, 0.6);
+            filter: brightness(1.1);
         }
         @keyframes fadeInDown {
             from {
@@ -90,17 +92,17 @@
 <body>
 
 <div class="container">
-    <h1>Oluwatobi Salawu</h1>
+    <h1>Manu Karthik V</h1>
     <div class="buttons">
-        <button class="btn" onclick="downloadResume()">Download Resume</button>
+        <button class="btn" aria-label="Download Manu Karthik's Resume" onclick="downloadResume()">Download Resume</button>
     </div>
 </div>
 
 <script>
     function downloadResume() {
         const link = document.createElement('a');
-        link.href = 'Oluwatobi_Salawu.pdf';  // Ensure the path to your resume file is correct
-        link.download = 'Oluwatobi_Salawu.pdf';
+        link.href = 'ManuKarthikResume.pdf';  // Ensure the path to your resume file is correct
+        link.download = 'ManuKarthikResume.pdf';
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
