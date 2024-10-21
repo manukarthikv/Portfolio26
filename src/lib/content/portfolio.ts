@@ -20,8 +20,8 @@ export const seoData = {
   title: 'ManuKarthik|Portfolio',
   description: 'Aspiring Sotfware Engineer, Improving my skills to be better at what I do',
   author: author.name,
-  image: '/preview.png',
-  url: 'https://oluwatobisalawu.me/',
+  image: '/img.png',
+  url: 'https://mk-portfolio-delta.vercel.app/',
   keywords: [
     'Portfolio',
   ],
