@@ -82,15 +82,14 @@
 </div>
 
 <script>
-    function downloadResume() {
-        const link = document.createElement('a');
-        link.href = 'ManuKarthikResume.pdf';
-  // Ensure the path to your resume file is correct
-        link.download = 'https://mk26-portfolio.vercel.app/ManuKarthikResume.pdf';
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
-    }
+   function downloadResume() {
+    const link = document.createElement('a');
+    link.href = 'https://mk26-portfolio.vercel.app/ManuKarthikResume.pdf';  // Direct link to the resume
+    link.download = 'ManuKarthikResume.pdf';  // Suggest the filename for download
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+}
 </script>
 
 </body>
