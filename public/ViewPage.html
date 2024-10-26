@@ -26,11 +26,18 @@
         h1 {
             font-size: 2.5em;
             margin-bottom: 20px;
+            animation: fadeInDown 1s ease-out;
+        }
+        p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+            animation: fadeInUp 1s ease-out;
         }
         .buttons {
             display: flex;
             justify-content: center;
             gap: 20px;
+            animation: fadeIn 1.5s ease-out;
         }
         .btn {
             background: #fff;
@@ -44,10 +51,42 @@
             transition: all 0.3s ease-in-out;
             text-transform: uppercase;
             font-weight: bold;
+            text-decoration: none; /* Removes underline from link */
         }
+        /* Enhanced hover effect */
         .btn:hover {
             background: #4e54c8;
             color: #fff;
+            box-shadow: 0 0 20px rgba(78, 84, 200, 0.8), 0 0 30px rgba(78, 84, 200, 0.6);
+            filter: brightness(1.1);
+        }
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
         }
     </style>
 </head>
@@ -56,7 +95,7 @@
 <div class="container">
     <h1>Manu Karthik V</h1>
     <div class="buttons">
-        <a href="https://mk26-portfolio.vercel.app/ManuKarthikResume.pdf" class="btn" download="ManuKarthikResume.pdf">Download Resume</a>
+        <a class="btn" href="/ManuKarthikResume.pdf" target="_blank" aria-label="View Manu Karthik's Resume">View Resume</a>
     </div>
 </div>
 
